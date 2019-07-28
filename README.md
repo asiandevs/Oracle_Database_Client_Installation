@@ -1,4 +1,5 @@
 # oracleclient_install
+Oracle client is needed to access multiple data sources from the different client tool (PL SQL Developer, TOAD). Here we are using ansible tool to deploy oracle client into the multiple servers at a time.
 
 Note: Please modify all necessary configuration files based on your own environment.
 
@@ -46,9 +47,9 @@ ansible-playbook oracleclient_install.yml
 
   roles:
    - oracleclient19c_install
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++
            WORK LOG
-         +++++++++++++
+++++++++++++++++++++++++++++++++++++
  [root@oel75 ansible]# ansible-playbook oracleclient_install.yml
 
 PLAY [ora-x1] **********************************************************************************************************************
