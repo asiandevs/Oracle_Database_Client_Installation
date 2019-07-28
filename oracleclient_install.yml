@@ -1,0 +1,5 @@
+- hosts: ora-x1
+  user: root
+  
+  roles:
+   - oracleclient19c_install
