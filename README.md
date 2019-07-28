@@ -126,13 +126,5 @@ ok: [192.168.56.102] => {
 PLAY RECAP *************************************************************************************************************************
 192.168.56.102             : ok=15   changed=10   unreachable=0    failed=0
 
-[root@oel75 ansible]# ansible-playbook oracleclient_install.yml^C
-[root@oel75 ansible]# cat oracleclient_install.yml
-- hosts: ora-x1
-  user: root
-
-  roles:
-   - oracleclient19c_install
-
 ===============================================
 Note: Modify variables according to your requirements. Add TNS entry according to your databases. 
