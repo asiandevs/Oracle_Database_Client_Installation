@@ -127,4 +127,6 @@ PLAY RECAP *********************************************************************
 192.168.56.102             : ok=15   changed=10   unreachable=0    failed=0
 
 ===============================================
+
+
 Note: Modify variables according to your requirements. Add TNS entry according to your databases. 
